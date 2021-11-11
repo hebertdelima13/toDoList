@@ -8,9 +8,8 @@
 
 ## Screenshots
 
-```sh
-<img src="https://raw.githubusercontent.com/hebertdelima13/toDoList/master/img/screenshot1.jpg?token=AUBWL2RJJVTTKPARLDOX7V3BRVQAG" />
-```
+<img src="https://raw.githubusercontent.com/hebertdelima13/toDoList/master/img/screenshot1.jpg?token=AUBWL2UP5ZZHJ23ZXG2ONX3BRVQIG" />
+<img src="https://raw.githubusercontent.com/hebertdelima13/toDoList/master/img/screenshot2.jpg?token=AUBWL2X2HJBIHZHZLLANXATBRVQJQ" />
 
 ## Frameworks
 
