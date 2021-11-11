@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="container-card">
+
+        <mat-card class="example-card">
+            <mat-card-header>
+                <mat-card-title>Entrar/Cadastrar</mat-card-title>
+                <mat-card-subtitle>Entre com seu login, ou cadastre-se para entrar.</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <mat-tab-group>
+                    <mat-tab label="Entrar">
+                        <mat-form-field class="example-full-width" appearance="fill">
+                            <mat-label>E-mail</mat-label>
+                            <input [(ngModel)]="requestLogin.email" type="email" matInput placeholder="E-mail" value="">
+                            <mat-icon matSuffix>email</mat-icon>
+                        </mat-form-field>
+
+                        <mat-form-field class="example-full-width" appearance="fill">
+                            <mat-label>Senha</mat-label>
+                            <input [(ngModel)]="requestLogin.password" matInput [type]="hide ? 'password' : 'text'">
+                            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                                [attr.aria-pressed]="hide">
+                                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                            </button>
+                        </mat-form-field>
+                        <button (click)="doLogin()" mat-raised-button color="primary">Entrar</button>
+                    </mat-tab>
+
+                    <mat-tab label="Cadastrar">
+
+                        <mat-form-field class="example-full-width" appearance="fill">
+                            <mat-label>Nome</mat-label>
+                            <input [(ngModel)]="requestRegister.name" type="text" matInput placeholder="Nome" value="">
+                            <mat-icon matSuffix>perm_identity</mat-icon>
+                        </mat-form-field>
+
+                        <mat-form-field class="example-full-width" appearance="fill">
+                            <mat-label>E-mail</mat-label>
+                            <input [(ngModel)]="requestRegister.email" type="email" matInput placeholder="E-mail"
+                                value="">
+                            <mat-icon matSuffix>email</mat-icon>
+                        </mat-form-field>
+
+                        <mat-form-field class="example-full-width" appearance="fill">
+                            <mat-label>Senha</mat-label>
+                            <input [(ngModel)]="requestRegister.password" type="password" matInput placeholder="Senha">
+                            <mat-icon matSuffix>vpn_key</mat-icon>
+                        </mat-form-field>
+
+                        <button (click)="doRegister()" mat-raised-button color="primary">Cadastrar</button>
+
+                    </mat-tab>
+                </mat-tab-group>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.example-card {
+    width: 31.25rem;
+}
+  
+.title-header{
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-input {
+    width: 31.25rem;
+    height: 2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+

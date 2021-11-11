@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-card {
+  margin: auto;
+}
+
+.mat-card-header {
+  justify-content: center;
+}
+
+.example-card {
+  max-width: 25rem;
+}
+
+.example-full-width {
+  margin-top: 1rem;
+}
+
+.example-form {
+  min-width: 9.375rem;
+  max-width: 31.25rem;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+* {
+  font-family: 'Montserrat';
+}

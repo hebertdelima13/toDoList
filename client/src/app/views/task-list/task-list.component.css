@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.example-card {
+    width: 31.25rem;
+  }
+  
+.title-header{
+    justify-content: center;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-alert {
+    background: #f8f8f8;
+}
+

@@ -1,0 +1,12 @@
+<mat-card-content class="card-task">
+  <mat-checkbox class="card-checkbox" [(ngModel)]="task.completed" (change)="onCompletedCheckChange(task)"></mat-checkbox>
+  <span [innerHTML]="task.description" [ngClass]="task.completed ? 'task-completed' : ''"></span>
+  <div class="card-button">
+    <button class="button" mat-mini-fab color="primary">
+      <mat-icon [routerLink]="['/task/edit', task._id]">edit</mat-icon>
+    </button>
+    <button (click)="remove(task)" mat-mini-fab color="primary">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </div>
+</mat-card-content>
