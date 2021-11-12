@@ -8,8 +8,10 @@
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/hebertdelima13/toDoList/master/img/screenshot1.jpg?token=AUBWL2UP5ZZHJ23ZXG2ONX3BRVQIG" />
-<img src="https://raw.githubusercontent.com/hebertdelima13/toDoList/master/img/screenshot2.jpg?token=AUBWL2X2HJBIHZHZLLANXATBRVQJQ" />
+<img src="https://i.ibb.co/FzZ0xqG/screenshot3.jpg" />
+<img src="https://i.ibb.co/df4cMpw/screenshot4.jpg" />
+<img src="https://i.ibb.co/0tNtz2W/screenshot1.jpg" />
+<img src="https://i.ibb.co/NykVzh5/screenshot2.jpg" />
 
 ## Frameworks
 
